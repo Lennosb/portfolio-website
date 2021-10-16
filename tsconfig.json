@@ -1,0 +1,14 @@
+{
+  "extends": "@lennardvdberg/eslint-config-react-lennard/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
