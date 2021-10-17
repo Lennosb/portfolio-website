@@ -33,12 +33,12 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@lennardvdberg/eslint-config-react-lennard": "1.0.0",
+    "@lennardvdberg/eslint-config-react-lennard": "1.0.1",
     "@types/react": "17.0.30",
     "@types/react-dom": "17.0.9",
     "audit-ci": "5.1.2",
-    "autoprefixer": "10.2.6",
-    "postcss": "8.3.5",
-    "tailwindcss": "2.2.4"
+    "autoprefixer": "10.3.7",
+    "postcss": "8.3.9",
+    "tailwindcss": "2.2.17"
   }
 }

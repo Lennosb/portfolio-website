@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import profile from '../../../public/profile.jpg'
 
 export const About = () => {
@@ -10,8 +11,8 @@ export const About = () => {
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+              industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book.
             </p>
           </div>
         </div>
@@ -19,7 +20,7 @@ export const About = () => {
           <Image
             src={profile}
             alt="Profile"
-            priority={true}
+            priority
             className="rounded-full"
             width={250}
             height={250}
