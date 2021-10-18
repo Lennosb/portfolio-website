@@ -33,7 +33,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@lennardvdberg/eslint-config-react-lennard": "1.0.1",
+    "@lennardvdberg/eslint-config-react-lennard": "1.1.0",
     "@types/react": "17.0.30",
     "@types/react-dom": "17.0.9",
     "audit-ci": "5.1.2",

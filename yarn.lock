@@ -121,17 +121,17 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@lennardvdberg/eslint-config-react-lennard@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@lennardvdberg/eslint-config-react-lennard/-/eslint-config-react-lennard-1.0.1.tgz#e6473583a342db5e511236d0e282ebcfbcf948c0"
-  integrity sha512-cbV/4SHObLGKFDLtjoVrsVbYdG9Zt9BsnvFATQY9yV1NEJfS+n3kwoWFYQF971MywXQYaUKOQpxcDZCrPpmq1Q==
+"@lennardvdberg/eslint-config-react-lennard@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@lennardvdberg/eslint-config-react-lennard/-/eslint-config-react-lennard-1.1.0.tgz#6b3c16e7c23aa8aa73684c767e68c64189c1273f"
+  integrity sha512-xbZgWHU0EGz25j3vz7oGUnsbA+i35sTamDEx7F80cLwfXy5tG9QcvvWUJGRduSTbiajj33EETmq4gaFZDds1Cg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.0.0"
     "@typescript-eslint/parser" "5.0.0"
     eslint "8.0.1"
     eslint-config-airbnb-typescript-prettier "4.2.0"
     eslint-config-prettier "8.3.0"
-    eslint-plugin-jest "25.2.1"
+    eslint-plugin-jest "25.2.2"
     eslint-plugin-react-hooks "4.2.0"
     eslint-plugin-simple-import-sort "7.0.0"
     prettier "2.4.1"
@@ -1410,10 +1410,10 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.20.0"
     tsconfig-paths "^3.11.0"
 
-eslint-plugin-jest@25.2.1:
-  version "25.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-25.2.1.tgz#998b8a770b816534674a2df72b6165a0a42c1f61"
-  integrity sha512-fC6T95lqgWHsdVFd+f0kTHH32NxbIzIm1fJ/3kGaCFcQP1fJc5khV7DzUHjNQSTOHd5Toa7ccEBptab4uFqbNQ==
+eslint-plugin-jest@25.2.2:
+  version "25.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-25.2.2.tgz#aada85113268e79d4e7423f8ad4e1b740f112e71"
+  integrity sha512-frn5yhOF60U4kcqozO3zKTNZQUk+mfx037XOy2iiYL8FhorEkuCuL3/flzKcY1ECDP2WYT9ydmvlO3fRW9o4mg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^5.0.0"
 
