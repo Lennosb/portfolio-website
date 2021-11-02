@@ -4,7 +4,8 @@
     "jsx": "preserve",
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
-    "isolatedModules": true
+    "isolatedModules": true,
+    "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".eslintrc.js"]
 }

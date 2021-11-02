@@ -6,10 +6,18 @@ import {ThemeProvider} from 'next-themes'
 
 import {Footer} from '../components/footer/Footer'
 import {Navigation} from '../components/navigation/Navigation'
+import {darkTheme} from '../style/stitches.config'
 
 function MyApp({Component, pageProps}: AppProps) {
   return (
-    <ThemeProvider attribute="class" enableSystem>
+    <ThemeProvider
+      attribute="class"
+      enableSystem
+      value={{
+        dark: darkTheme.className,
+        light: 'light',
+      }}
+    >
       <Navigation />
       <Component {...pageProps} />
       <Footer />
