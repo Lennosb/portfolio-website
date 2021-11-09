@@ -28,16 +28,16 @@
   "homepage": "https://github.com/Lennosb/portfolio-website#readme",
   "dependencies": {
     "@stitches/react": "1.2.5",
-    "next": "12.0.2",
+    "next": "12.0.3",
     "next-themes": "0.0.15",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sharp": "0.29.2"
   },
   "devDependencies": {
-    "@lennardvdberg/eslint-config-react-lennard": "1.3.1",
-    "@types/react": "17.0.33",
-    "@types/react-dom": "17.0.10",
+    "@lennardvdberg/eslint-config-react-lennard": "1.4.0",
+    "@types/react": "17.0.34",
+    "@types/react-dom": "17.0.11",
     "audit-ci": "5.1.2",
     "autoprefixer": "10.4.0",
     "postcss": "8.3.11",
