@@ -8,22 +8,20 @@ import {Footer} from '../components/footer/Footer'
 import {Navigation} from '../components/navigation/Navigation'
 import {darkTheme} from '../style/stitches.config'
 
-function MyApp({Component, pageProps}: AppProps) {
-  return (
-    <ThemeProvider
-      attribute="class"
-      enableSystem
-      value={{
-        dark: darkTheme.className,
-        light: 'light',
-      }}
-    >
-      <Navigation />
-      <Component {...pageProps} />
-      <Footer />
-    </ThemeProvider>
-  )
-}
+const MyApp = ({Component, pageProps}: AppProps) => (
+  <ThemeProvider
+    attribute="class"
+    enableSystem
+    value={{
+      dark: darkTheme.className,
+      light: 'light',
+    }}
+  >
+    <Navigation />
+    <Component {...pageProps} />
+    <Footer />
+  </ThemeProvider>
+)
 
 /* eslint-disable-next-line import/no-default-export -- Default export is required by Next.js */
 export default MyApp
