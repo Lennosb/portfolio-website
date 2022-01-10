@@ -1,9 +1,5 @@
-module.exports = {
-  arrowParens: 'avoid',
-  bracketSpacing: false,
-  printWidth: 120,
-  semi: false,
-  singleQuote: true,
-  tabWidth: 2,
-  trailingComma: 'all',
-}
+const prettier = require('@lennardvdberg/eslint-config-react-lennard/prettier')
+
+// You can also overwrite some keys in this config
+
+module.exports = prettier
